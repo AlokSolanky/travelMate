@@ -1,0 +1,46 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(214, 202, 202, 0.356);
+}
+.sign_container
+{
+    min-height: 50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: inset;
+    border-color: azure;
+    border-style: double;
+    margin-bottom: 100px;
+}
+.signin_boxsize
+{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box; 
+}
+.logo
+{
+    margin-bottom: 100px;
+}
+table
+{
+    width: 100%; 
+    padding: 10px;
+}

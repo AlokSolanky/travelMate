@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/articleStyle.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit|Quicksand">
+    <title>TravelMate</title>
+</head>       
+		
+		<header>
+            <article id="home-logo">
+                <!-- logo -->
+                <h1>TRAVELMATE</h1>
+            </article>
+            <nav>
+                <a href="#" class="nav-menu home">Home</a>
+                <a href="index2.html" class="nav-menu places_to_go">Places to go</a>
+                <a href="Things_to_do.html" class="nav-menu things_to_do">Things to do</a>
+                <a href="#" class="nav-menu tips-article">Tips & Articles</a>
+				<a href="#" class="nav-menu about-us">About Us</a>
+                <a href="signin.html" class="nav-menu">Login</a>
+            </nav>
+        </header>
+        <br /><hr />

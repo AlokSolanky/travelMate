@@ -1,0 +1,138 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    overflow-x:hidden ;
+}
+body
+{   max-width: 100%;
+}
+.container
+{
+    width: 100%;
+}
+header {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;	
+}
+
+hr{
+    opacity:50%;
+    width:90%;
+    margin:auto;
+    background-color:grey;
+	margin-bottom:100px;
+}
+
+nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right:100px;
+    font-family: 'Outfit';
+}
+
+.nav-menu {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: small-caps;
+	color:black;
+}
+
+#home-logo {
+    margin-left: 100px;
+    font-family: 'Outfit';
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+/* .search-form
+{
+    display: flex;
+    flex-direction: row;
+}*/
+#search-box
+{
+    position: relative;
+    /* bottom: 40px; */
+    width:50%;
+    height: 40px;
+} 
+.search-box
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: inline;
+    margin-left: 80px;
+    float: left;
+    margin-bottom: 50px;
+}
+#search-button
+{
+    height: 40px;
+    width: 60px;
+    color: black;
+    background-color: orange;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+.blog-container
+{
+    width: 55%;
+    /* background-color: bisque; */
+}
+.blog-cursor
+{
+    cursor: pointer;
+}
+#blog-card
+{
+    text-align: left;
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+    background-color: rgba(230, 226, 222, 0.233);
+    border-radius: 5px;
+    box-shadow: 5px 0 5px 0;
+}
+#blog-image
+{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width:200px;
+    height: 150px;
+    display: block;
+    float: left;
+    /* object-fit: contain; */
+}
+.blogs-enter
+{
+    width: 30%;
+    background-color: rgba(211, 211, 211, 0.281);
+    display: flex;
+    flex-direction: column;
+    max-height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+#form-blog
+{
+    width: 100%;
+    line-height: 100px;
+}
